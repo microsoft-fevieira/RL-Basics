@@ -1,4 +1,4 @@
-## **Using n-step TD to cross the Frozen Lake**
+## **Using n-step SARSA to cross the Frozen Lake**
 
 Our goal is to find a policy that takes the agent from *(0,0)* to *(7,7)*. More information on this environment can be found [here](https://www.gymlibrary.ml/environments/toy_text/frozen_lake/ "here"). The *non-slippery version* is used in the following experiments.
 
