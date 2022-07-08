@@ -4,7 +4,7 @@ Our goal is to find a policy that takes the agent from *(0,0)* to *(7,7)*. More 
 
 <img src='https://github.com/siddarth-c/RL-Basics/blob/main/D2/Figs/2022-06-29-20-02-59.png' width='250'>
   
-  gym.make('FrozenLake-v1', desc = desc, map_name = "8x8", is_slippery = False)
+  gym.make('FrozenLake-v1', desc = None, map_name = "8x8", is_slippery = False)
   
 ------------
 
