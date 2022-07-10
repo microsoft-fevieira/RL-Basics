@@ -33,3 +33,7 @@ The graph is a plot between the time taken to complete an episode and the corres
 <img src='https://github.com/siddarth-c/RL-Basics/blob/main/D2/Figs/output2.png' width='1000'>
 
 And similar to Example 7.1, intermediate 'n' values perform better.
+
+With the same parametes, a simple scaling of the reward by 10 gives quicker convergence. But the same did not happen when the agent was punished for every time step it takes till it reaches the goal. It chose death. Instead of reaching the goal (whose reward was now scaled upto 1000), it chose to end the episode by moving into the closest hole. Increasing the exploration epsilon till 0.9 did not work too. Maybe it requires a completely new set of parameters, or it was just too much for the agent to handle 🤷‍♂️.
+
+<img src='https://github.com/siddarth-c/RL-Basics/blob/main/D2/Figs/output3.png' width='1000'>
